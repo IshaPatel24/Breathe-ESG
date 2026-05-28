@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  
+  /* Primary HSL Tailored Brand Colors */
+  --color-brand-50: hsl(200, 95%, 97%);
+  --color-brand-100: hsl(200, 95%, 92%);
+  --color-brand-500: hsl(200, 95%, 48%);
+  --color-brand-600: hsl(200, 95%, 42%);
+  --color-brand-700: hsl(200, 95%, 35%);
+  --color-brand-800: hsl(200, 95%, 28%);
+  
+  --color-accent-500: hsl(262, 83%, 58%);
+  --color-accent-600: hsl(262, 83%, 50%);
+
+  /* UI Status Colors */
+  --color-status-pending: #f59e0b; /* Amber */
+  --color-status-approved: #10b981; /* Emerald */
+  --color-status-rejected: #ef4444; /* Rose */
+  --color-status-flagged: #f97316;  /* Orange */
+  --color-status-locked: #6b7280;   /* Gray */
+}
+
+/* Base resets & custom global styles */
+body {
+  font-family: var(--font-sans);
+  background-color: #0b0f19; /* premium dark background */
+  color: #f3f4f6;
+  min-height: 100vh;
+  margin: 0;
+  background-image: radial-gradient(circle at top right, rgba(14, 165, 233, 0.08), transparent 40%),
+                    radial-gradient(circle at bottom left, rgba(139, 92, 246, 0.05), transparent 45%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-card {
+  background: rgba(22, 30, 49, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.glass-card:hover {
+  border-color: rgba(14, 165, 233, 0.25);
+  box-shadow: 0 10px 30px -5px rgba(14, 165, 233, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}

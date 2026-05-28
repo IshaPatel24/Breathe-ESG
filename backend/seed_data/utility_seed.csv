@@ -1,0 +1,31 @@
+Meter ID,Start Date,End Date,Consumption,Current Reading,Previous Reading,Unit,Site,Tariff
+MET-AUS-03,2025-12-01,2025-12-30,20757.54,,,kWh,Austin Data Center,Standard Commercial Tier 1
+MET-AUS-03,2025-12-31,2026-01-29,10742.46,,,kWh,Austin Data Center,Standard Commercial Tier 2
+MET-HAM-02,2026-01-30,2026-02-28,19497.89,,,kWh,Hamburg Plant,Standard Commercial Tier 2
+MET-MUN-01,2026-03-01,2026-03-30,24367.68,,,kWh,Munich HQ,Standard Commercial Tier 1
+MET-MUN-01,2026-03-31,2026-04-29,11779.25,,,kVAh,Munich HQ,Standard Commercial Tier 1
+MET-AUS-03,2026-04-30,2026-05-29,23606.67,,,kWh,Austin Data Center,Standard Commercial Tier 1
+MET-MUN-01,2026-05-30,2026-06-28,5750.76,,,kWh,Munich HQ,Standard Commercial Tier 1
+MET-MUN-01,2026-06-29,2026-07-28,22665.01,,,kWh,Munich HQ,Standard Commercial Tier 2
+MET-AUS-03,2026-07-29,2026-08-27,20922.75,,,kWh,Austin Data Center,Standard Commercial Tier 2
+MET-AUS-03,2026-08-28,2026-09-26,14.0872,,,MWh,Austin Data Center,Standard Commercial Tier 1
+MET-MUN-01,2026-09-27,2026-10-26,6437.82,,,kWh,Munich HQ,Standard Commercial Tier 2
+MET-MUN-01,2026-10-27,2026-11-25,10432.34,,,kWh,Munich HQ,Standard Commercial Tier 2
+MET-AUS-03,2026-11-26,2026-12-25,17900.4,,,kWh,Austin Data Center,Standard Commercial Tier 1
+MET-MUN-01,2026-12-26,2027-01-24,15018.98,,,kWh,Munich HQ,Standard Commercial Tier 1
+MET-MUN-01,2027-01-25,2027-02-23,9329.25,,,kVAh,Munich HQ,Standard Commercial Tier 2
+MET-MUN-01,2027-02-24,2027-03-25,5400.3,,,kWh,Munich HQ,Standard Commercial Tier 1
+MET-AUS-03,2027-03-26,2027-04-24,14272.78,,,kWh,Austin Data Center,Standard Commercial Tier 2
+MET-MUN-01,2027-04-25,2027-05-24,20839.02,,,kWh,Munich HQ,Standard Commercial Tier 1
+MET-AUS-03,2027-05-25,2027-06-23,15404.71,,,kWh,Austin Data Center,Standard Commercial Tier 2
+MET-AUS-03,2027-06-24,2027-07-23,23.5115,,,MWh,Austin Data Center,Standard Commercial Tier 1
+MET-MUN-01,2027-07-24,2027-08-22,20216.83,,,kWh,Munich HQ,Standard Commercial Tier 2
+MET-AUS-03,2027-08-23,2027-09-21,13562.14,,,kWh,Austin Data Center,Standard Commercial Tier 2
+MET-AUS-03,2027-09-22,2027-10-21,12498.55,,,kWh,Austin Data Center,Standard Commercial Tier 1
+MET-AUS-03,2027-10-22,2027-11-20,18262.9,,,kWh,Austin Data Center,Standard Commercial Tier 2
+MET-MUN-01,2027-11-21,2027-12-20,10877.04,,,kVAh,Munich HQ,Standard Commercial Tier 2
+MET-CUM-01,01.01.2026,30.01.2026,,106838.0,100000.0,kWh,Hamburg Plant,Industrial Time-of-Use
+MET-CUM-02,31.01.2026,01.03.2026,,53927.0,50000.0,kWh,Austin Data Center,Industrial Time-of-Use
+MET-CUM-01,02.03.2026,31.03.2026,,113172.0,106838.0,kWh,Hamburg Plant,Industrial Time-of-Use
+MET-CUM-02,01.04.2026,30.04.2026,,60237.0,53927.0,kWh,Austin Data Center,Industrial Time-of-Use
+MET-CUM-01,01.05.2026,30.05.2026,,119100.0,113172.0,kWh,Hamburg Plant,Industrial Time-of-Use
