@@ -3,7 +3,7 @@
 // Base URL detection
 export const API_BASE = import.meta.env.DEV 
   ? 'http://localhost:8000' 
-  : window.location.origin;
+  : `${window.location.origin}/_/backend`;
 
 // Pre-seeded Analyst User Token (seeded via management command)
 const ANALYST_TOKEN = 'f8df9911f1c56734ef297ada95eda525128b5c15';
